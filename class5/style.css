@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 99vh;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    margin-top: 20px;
+    width: 80%;
+    height: 90%;
+    background-color: rgb(42, 190, 42);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.newDiv{
+    width: 50%;
+    height: 70%;
+    background-color: rgb(52, 35, 207);
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tags{
+    position: absolute;
+    top: 5%;
+    right: 40%;
+    height: 80px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(26, 102, 153);
+    align-items: center;
+}
+
+button{
+    overflow: hidden;
+    width: 100px;
+    border: none;
+    background-color: yellow;
+    font-family: Poppins , sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+    height: 80%;
+}
