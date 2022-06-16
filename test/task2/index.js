@@ -33,7 +33,7 @@ nes().then((value)=>{
         console.log(nes[i].url);
         newDiv = document.createElement('div')
         newDiv.style.width = '500px'
-        newDiv.style.height = '500px'
+        newDiv.style.height = 'auto'
         p = document.createElement('p')
         p.innerText = nes[i].name
         newDiv.appendChild(p)
@@ -41,7 +41,7 @@ nes().then((value)=>{
 
         pg.src = nes[i].url
         container.appendChild(newDiv)
-        pg.style.width ='500px'
+        pg.style.width ='auto'
         pg.style.height = '400px'
 
 
